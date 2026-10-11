@@ -1,0 +1,19 @@
+[project]
+name = "desmontar"
+version = "1.0.0"
+description = "Desmontar: comandos da skill (dossiê com rótulos de evidência, conferência de fontes e biblioteca de lentes que aprende), lendo lib/limiares.json"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+desmontar = "desmontar.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["desmontar"]

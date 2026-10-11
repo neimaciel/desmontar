@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.env
+.env.*
+# dossiês e lentes aprendidas moram em ~/Documents/desmontar e nunca entram no repositório
+dossies/
+lentes/
+*.csv

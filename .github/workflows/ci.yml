@@ -1,0 +1,23 @@
+name: Desmontar
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  testes:
+    name: Testes do desmontar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -e "scripts[dev]"
+      - name: Pytest
+        run: pytest -q scripts/tests
+      - name: Limiares é JSON válido
+        run: python3 -c "import json; json.load(open('lib/limiares.json', encoding='utf-8'))"
+      - name: Lentes-semente passam na checagem
+        run: for f in lentes-semente/*.md; do desmontar lentes checar "$f"; done

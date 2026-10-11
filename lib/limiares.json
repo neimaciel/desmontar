@@ -1,0 +1,37 @@
+{
+  "_sobre": "Fonte única dos números da /desmontar. Scripts e fluxos leem daqui. Cada bloco diz de onde veio o número ou se é regra de bolso.",
+  "classificacao": {
+    "confianca_minima": 0.6,
+    "fonte": "regra de bolso: abaixo disso a ficha de área vira lente híbrida declarada, ou pergunta, se houver portão de risco"
+  },
+  "rede": {
+    "timeout_s": 15,
+    "tentativas": 2,
+    "user_agent": "desmontar (verificador de fontes; skill de Claude Code)",
+    "fonte": "regra de bolso: APIs abertas (Crossref, OpenAlex, arXiv) respondem em menos de 5 s quando estão de pé"
+  },
+  "fontes": {
+    "corpo_minimo_chars": 200,
+    "status_quebrado": [
+      400,
+      401,
+      403,
+      404,
+      410
+    ],
+    "titulo_semelhanca_minima": 0.5,
+    "fonte": "corpo mínimo e status quebrados herdados do motor do Conclave (mairs/extract.py e mairs/websearch.py); semelhança de título é regra de bolso"
+  },
+  "lentes": {
+    "tamanho_maximo_kb": 12,
+    "status_fonte_morta": [
+      404,
+      410
+    ],
+    "rigor_ordem": [
+      "padrao",
+      "alto"
+    ],
+    "fonte": "regra de bolso: lente acima de 12 KB virou apostila; fonte canônica só é dada como morta com 404 ou 410, porque API sem parâmetro responde 400"
+  }
+}

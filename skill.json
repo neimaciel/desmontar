@@ -1,0 +1,45 @@
+{
+  "id": "desmontar",
+  "name": "Desmontar",
+  "type": "META_SKILL",
+  "subtype": "router",
+  "version": "1.0.0",
+  "author": "Nei Maciel",
+  "repo": null,
+  "entrypoint": "SKILL.md",
+  "limiares": "lib/limiares.json",
+  "cli": "desmontar",
+  "comandos": ["novo", "validar", "conferir", "lentes"],
+  "description": "Engenharia reversa de qualquer coisa com evidência. Reconhece a área do objeto, compõe a lente (natureza × área × intenção) e entrega um dossiê em que cada afirmação é observada, citada com fonte conferida, inferida ou desconhecida. A lente aprende a cada uso, com travas: só exige mais, nunca menos.",
+  "workflows": [
+    "workflows/reconhecer.md",
+    "workflows/transmutar.md",
+    "workflows/desmontar.md",
+    "workflows/verificar.md",
+    "workflows/aprender.md",
+    "workflows/encaminhar.md"
+  ],
+  "lib": [
+    "lib/genoma-da-lente.md",
+    "lib/rotulos.md",
+    "lib/fontes-abertas.md",
+    "lib/riscos.md"
+  ],
+  "templates": [
+    "templates/dossie.md",
+    "templates/lente.md"
+  ],
+  "lentes_semente": {
+    "ideia/conceito": "lentes-semente/conceito.md",
+    "texto-argumento/artigo-academico": "lentes-semente/artigo-academico.md",
+    "ser-vivo/botanica": "lentes-semente/botanica.md",
+    "sistema-digital/software": "lentes-semente/software.md"
+  },
+  "skills_governadas": [
+    "nei", "meta-skill", "plugin-authoring", "random-lp-ultra", "random-planner-ultra",
+    "impeccable", "conclave-design", "reverse-engineer-anything"
+  ],
+  "biblioteca": "~/Documents/desmontar/lentes",
+  "dossies": "~/Documents/desmontar/dossies",
+  "compatible_ais": ["Claude Code", "Cursor", "Codex CLI", "Gemini CLI", "ChatGPT"]
+}
