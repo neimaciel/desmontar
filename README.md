@@ -1,5 +1,12 @@
 # Desmontar
 
+<p align="left">
+  <a href="https://x.com/neimaciel"><img src="https://img.shields.io/badge/X-@neimaciel-black?style=flat-square&logo=x" alt="X @neimaciel"></a>
+  <a href="https://instagram.com/neimaciel.ia"><img src="https://img.shields.io/badge/Instagram-@neimaciel.ia-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram @neimaciel.ia"></a>
+  <a href="https://github.com/neimaciel/desmontar"><img src="https://img.shields.io/badge/GitHub-neimaciel%2Fdesmontar-181717?style=flat-square&logo=github" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="Licença MIT">
+</p>
+
 Engenharia reversa de qualquer coisa, com evidência: um conceito, um artigo acadêmico, uma planta,
 um software, um processo, uma obra.
 
@@ -61,6 +68,16 @@ pip install -e "scripts[dev]" && pytest -q scripts/tests
 ```
 
 Só biblioteca padrão do Python. Os testes usam dados gerados e uma rede de mentira.
+
+## Autor e Comunidade
+
+Desenvolvido por **Nei Maciel**.
+
+- Conecte-se no **X (Twitter):** [@neimaciel](https://x.com/neimaciel) para novidades de engenharia reversa com IA e novos projetos.
+- Siga no **Instagram:** [@neimaciel.ia](https://instagram.com/neimaciel.ia) para bastidores práticos e atualizações de lentes.
+- Repositório oficial: [github.com/neimaciel/desmontar](https://github.com/neimaciel/desmontar)
+
+Se você criar forks ou derivar novas lentes epistêmicas a partir deste trabalho, cite e mantenha a atribuição original conforme descrito no arquivo [`NOTICE`](NOTICE) e [`CITATION.cff`](CITATION.cff).
 
 ## Licença
 

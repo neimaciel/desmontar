@@ -5,7 +5,11 @@
   "subtype": "router",
   "version": "1.0.0",
   "author": "Nei Maciel",
-  "repo": null,
+  "repo": "https://github.com/neimaciel/desmontar",
+  "social": {
+    "x": "https://x.com/neimaciel",
+    "instagram": "https://instagram.com/neimaciel.ia"
+  },
   "entrypoint": "SKILL.md",
   "limiares": "lib/limiares.json",
   "cli": "desmontar",

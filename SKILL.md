@@ -66,4 +66,4 @@ com data e nome do objeto, e a lente usada no cabeçalho. Pronto quando `desmont
 - `reverse-engineer-anything` (REA): binário, APK e firmware, quando instalado.
 
 ---
-**v1.0.0** · [@neimaciel](https://github.com/neimaciel)
+**v1.0.0** · Criado por Nei Maciel ([GitHub](https://github.com/neimaciel/desmontar)) · X: [@neimaciel](https://x.com/neimaciel) · Instagram: [@neimaciel.ia](https://instagram.com/neimaciel.ia)

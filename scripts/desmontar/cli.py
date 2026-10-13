@@ -112,8 +112,12 @@ def cmd_lentes(args) -> int:
 
 
 def construir() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(prog="desmontar", description="Desmonta qualquer coisa com evidência.")
-    p.add_argument("--version", action="version", version=f"desmontar {__version__}")
+    p = argparse.ArgumentParser(
+        prog="desmontar",
+        description="Desmontar v1.0.0 — Engenharia reversa com evidência e lentes por Nei Maciel (@neimaciel)",
+        epilog="Desenvolvido por Nei Maciel | X: @neimaciel | Instagram: @neimaciel.ia | https://github.com/neimaciel/desmontar"
+    )
+    p.add_argument("--version", action="version", version=f"desmontar {__version__} by Nei Maciel (@neimaciel)")
     sub = p.add_subparsers(dest="comando", required=True)
 
     n = sub.add_parser("novo", help="cria um dossiê a partir de templates/dossie.md")

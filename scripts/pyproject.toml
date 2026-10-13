@@ -2,8 +2,17 @@
 name = "desmontar"
 version = "1.0.0"
 description = "Desmontar: comandos da skill (dossiê com rótulos de evidência, conferência de fontes e biblioteca de lentes que aprende), lendo lib/limiares.json"
+authors = [
+    { name = "Nei Maciel" }
+]
+license = { text = "MIT" }
 requires-python = ">=3.10"
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/neimaciel/desmontar"
+"X (Twitter)" = "https://x.com/neimaciel"
+Instagram = "https://instagram.com/neimaciel.ia"
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]

@@ -41,3 +41,7 @@ confianca_area: <0 a 1>
 
 ## Fontes
 - [F1] <Autor, ano. Título.> <DOI, arXiv ou link> (conferida em <AAAA-MM-DD>)
+
+---
+*Dossiê estruturado via [Desmontar](https://github.com/neimaciel/desmontar) por Nei Maciel.*  
+*Novas lentes e atualizações: X [@neimaciel](https://x.com/neimaciel) | Instagram [@neimaciel.ia](https://instagram.com/neimaciel.ia)*

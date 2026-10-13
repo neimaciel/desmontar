@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Se você utilizar esta meta-skill, derivar lentes ou citar sua metodologia, por favor cite como abaixo."
+title: "Desmontar: Meta-Skill de Engenharia Reversa com Lentes Epistêmicas"
+authors:
+  - family-names: "Maciel"
+    given-names: "Nei"
+    alias: "neimaciel"
+url: "https://github.com/neimaciel/desmontar"
+repository-code: "https://github.com/neimaciel/desmontar"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-10-11"
+contact:
+  - name: "Nei Maciel"
+    website: "https://x.com/neimaciel"
+keywords:
+  - "engenharia reversa"
+  - "lentes epistemicas"
+  - "ia"
+  - "graphrag"
+  - "conclave"
+  - "dossie"
